@@ -1,0 +1,198 @@
+@media screen and (max-width:1024px){
+    .logo {
+        font-size: 25px;
+       padding-left: 60px;
+    }
+    .navbar ul{
+        margin-right: 20px;
+    }
+    .header-content h1 {
+        font-size: 34px;
+    }
+    .header-content p {
+        font-size: 14px;
+        padding-bottom: 40px;
+        letter-spacing: 0.1px;
+        line-height: 19px;
+    }
+    .header-content a{
+        padding: 8px 18px;
+    }
+}
+@media screen and (max-width:909px){
+    .navbar #icon{
+        display: block;
+    }
+    .navbar ul{
+        width: 100%;
+        height: 92%;
+        position: fixed;
+        top: 57px;
+        left: 100%;
+        text-align: center;
+        background: crimson;
+        transition: all .4s;
+        z-index: +999;
+    }
+    .navbar li{
+        display: block;
+        line-height: 80px;
+    }
+    .navbar ul.show{
+        left: 0%;
+        z-index: 99;
+    }
+    .header-content h1 {
+        font-size: 30px;
+    }
+    .header-content p {
+        font-size: 13px;
+    }
+    .about-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .about-content h3 {
+        font-size: 31px;
+        padding-bottom: 20px;
+    }
+    .about-text{
+        font-size: 30px !important;
+        padding-bottom: 20px;
+    }
+    .gallery .col:nth-child(3) {
+        margin-left: 0;
+    }
+    .gallery .col:nth-child(4) {
+        margin-left: auto;
+    }
+    .gallery .col:nth-child(5) {
+        margin-left: 0;
+    
+    }
+}
+@media screen and (max-width:768px){
+    .header-content h1 {
+        font-size: 25px;
+    }
+    
+    .header-content p{
+        padding-bottom: 32px;
+    }
+    .about-text {
+        font-size: 26px !important;
+        padding-bottom: 20px;
+    }
+    .about-p{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .little-description {
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 23px;
+    }
+    .col:hover .overlay {
+        height:35%;
+      }
+      .icon-box{
+          font-size: 17px;
+      }
+      .icon-box i{
+          margin-left: 0;
+      }
+      .text {
+          font-size: 19px;
+      }
+      .card h5 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width:425px){
+    .header-content{
+        width: 100%;
+    }
+    .extra-img{
+        display: block;
+    }
+    .about-img2{
+        display: none;
+    }
+    .about-p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .specialty .title {
+        font-size: 41px;
+    }
+    .specialty-p{
+        font-size: 24px;
+    }
+    .gallery .title{
+        font-size: 35px;
+    }
+    .col:hover .overlay {
+        height:20%;
+      }
+      .icon-box{
+        font-size: 20px;
+    }
+    .icon-box i{
+        margin-left: 10px;
+    }
+    .text {
+        font-size: 30px;
+    }
+    .team .title{
+        font-size: 23px;
+    }
+    .card h5 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px){
+    .header-content h1 {
+        font-size: 25px;
+    }
+    .logo {
+        padding-left: 31px;
+    }
+    .gallery .title {
+        font-size: 29px;
+    }
+    .team .title {
+        font-size: 19px;
+    }
+    .header-content h1 {
+        font-size: 21px;
+    }
+    .contact .title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    
+    .specialty .title {
+        font-size: 32px;
+    }
+    .specialty-p {
+        font-size: 22px;
+    }
+    .team .title {
+        font-size: 16px;
+    }
+    .contact .title {
+        font-size: 27px;
+    }
+    .card h5 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+}
+
+
